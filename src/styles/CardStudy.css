@@ -1,0 +1,90 @@
+:root{
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red: hsl(15, 100%, 70%);
+    --Soft-blue: hsl(195, 74%, 62%);
+    --Light-red-study: hsl(348, 100%, 68%);
+    --Lime-green-exercise: hsl(145, 58%, 55%);
+    --Violet-social: hsl(264, 64%, 52%);
+    --Soft-orange-self-care: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10%;
+    margin-top: 30px;
+    background-color: var(--Light-red-study);
+    width: 86%;
+    margin-left: 8%;
+}
+
+.card-bottom-imgs{
+    background-color: var(--Light-red-study);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.card-bottom-imgs span:nth-child(2){
+    background-image: url(/public/icon-study.svg);
+    height: 50px;
+    width: 80px;
+    margin-right:  20px;
+    border-radius: 10%;
+}
+
+.card-bottom{
+    background-color: var(--Dark-blue);
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10%; 
+}
+
+.card-bottom-container{
+    border-radius: 10%;
+}
+
+.card-bottom-act{
+    border-radius: 20%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 80%;
+    margin: 30px 40px 15px 30px;
+}
+
+.card-bottom-act span:nth-child(2){
+    border-radius: 10%;
+}
+
+.card-bottom-act span:nth-child(2){
+    background-image: url(/public/icon-ellipsis.svg);
+    width: 20px;
+    height: 5px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+}
+
+.card-bottom-sem{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 30px 30px;
+}
+
+.card-bottom-sem span:nth-child(2){
+    color: var(--Pale-Blue);
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}

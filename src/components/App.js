@@ -1,8 +1,13 @@
+
+import { TimeTracker } from './TimeTracker';
 import './App.css';
 
 function App() {
   return (
-    <div>hola</div>
+    <>
+    <TimeTracker/>
+    </>
+    
   );
 }
 
